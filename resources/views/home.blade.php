@@ -36,19 +36,17 @@
     </div>
 </div>
 
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
 <script>
 
 
     var firebaseConfig = {
-        apiKey: "asasas",
-        authDomain: "itdemo-push-notification.firebaseapp.com",
-        databaseURL: "https://itdemo-push-notification.firebaseio.com",
-        projectId: "itdemo-push-notification",
-        storageBucket: "itdemo-push-notification.appspot.com",
-        messagingSenderId: "asas",
-        appId: "asas",
-        measurementId: "G-VMJ68DFLXL"
+        apiKey: "AIzaSyArAVRN1xA3indWehtf5aXrW03tBLWEfj4",
+        authDomain: "epnr-dev.firebaseapp.com",
+        projectId: "epnr-dev",
+        storageBucket: "epnr-dev.appspot.com",
+        messagingSenderId: "888997854888",
+        appId: "1:888997854888:web:3cf977d8f320f79d390c9d"
     };
     // measurementId: G-R1KQTR3JBN
       // Initialize Firebase

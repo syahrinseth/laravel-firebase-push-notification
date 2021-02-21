@@ -2,23 +2,20 @@
 Give the service worker access to Firebase Messaging.
 Note that you can only use Firebase Messaging here, other Firebase libraries are not available in the service worker.
 */
-importScripts('https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/7.23.0/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/8.2.9/firebase-messaging.js');
 
 /*
 Initialize the Firebase app in the service worker by passing in the messagingSenderId.
 * New configuration for app@pulseservice.com
 */
 firebase.initializeApp({
-            apiKey: "asasas",
-            authDomain: "itdemo-push-notification.firebaseapp.com",
-            databaseURL: "https://itdemo-push-notification.firebaseio.com",
-            projectId: "itdemo-push-notification",
-            storageBucket: "itdemo-push-notification.appspot.com",
-            messagingSenderId: "257055232313",
-            appId: "asaasas",
-            measurementId: "G-VMJ68DFLXL"
-            // measurementId: "G-R1KQTR3JBN"
+            apiKey: "AIzaSyArAVRN1xA3indWehtf5aXrW03tBLWEfj4",
+            authDomain: "epnr-dev.firebaseapp.com",
+            projectId: "epnr-dev",
+            storageBucket: "epnr-dev.appspot.com",
+            messagingSenderId: "888997854888",
+            appId: "1:888997854888:web:3cf977d8f320f79d390c9d"
         });
 
 /*
